@@ -13,7 +13,7 @@ An automated offensive and defensive reconnaissance pipeline designed to ingest,
 ## Installation & Execution
 ```bash
 # Clone the repository
-git clone [https://github.com/YOUR_GITHUB_USERNAME/OSINT-Threat-Intel-Pipeline.git](https://github.com/YOUR_GITHUB_USERNAME/OSINT-Threat-Intel-Pipeline.git)
+git clone [https://github.com/Blackout656/OSINT-Threat-Intel-Pipeline.git](https://github.com/Blackout656/OSINT-Threat-Intel-Pipeline.git)
 cd OSINT-Threat-Intel-Pipeline
 
 # Execute the pipeline
