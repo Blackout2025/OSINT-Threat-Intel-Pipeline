@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ssh-honeypot:
+    build: .
+    container_name: privacy_honeypot_grid
+    ports:
+      - "2222:2222"
+    volumes:
+      # Maps the log file so it saves directly onto your real host machine
+      - ./honeypot_security.log:/app/honeypot_security.log
+    restart: always

